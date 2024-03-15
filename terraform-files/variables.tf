@@ -4,7 +4,7 @@ variable "region" {}
 variable "mykey" {}
 variable "tags" {}
 variable "myami" {
-  description = "redhat enterprise linux 8 ami"
+  description = "redhat enterprise linux 9 ami"
 }
 variable "instancetype" {}
 variable "controlinstancetype" {}

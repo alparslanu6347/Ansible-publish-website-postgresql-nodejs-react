@@ -1,11 +1,11 @@
 //aws_access_key = ""
 //aws_secret_key = ""
-myami = "ami-016eb5d644c333ccb"
-mykey = "arrow"
+myami = "ami-05a5f6298acdb05b6" # "ami-026ebd4cfe2c043b2" olarak değiştir, yeni proje bununla geldi
+mykey = "arrowlevent"     # write your keyname, mandatory
 tags = ["postgresql", "nodejs", "react"]
-instancetype = "t2.micro"
+instancetype = "t2.micro" # "t3a.medium" olarak değiştir, react container için yeterli gelmeyebilir.
 controlinstancetype = "t3a.medium"
 num = 3
 region = "us-east-1"
 mysecgr = "ansible-project-207-sec-gr"
-user = "arrow"
+user = "arrow"      # write you user name, optional
